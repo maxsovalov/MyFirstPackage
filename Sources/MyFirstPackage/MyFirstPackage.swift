@@ -1,6 +1,10 @@
 public struct MyFirstPackage {
     var text = "Message from Package"
     
+    public init() {
+        
+    }
+    
     public func rePrintYourMessage(_ message: String?) -> String {
         guard let m = message, !m.isEmpty else {
             
